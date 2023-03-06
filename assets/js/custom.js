@@ -3,7 +3,7 @@
   var menu = document.getElementById("menu");
   var close = document.getElementById("menu-close");
   //Greeting Js//
-  document.getElementById('greeting').innerHTML = new Date().getHours() >= 6 ? 'Good Afternoon!' : 'Good Morning!';
+  document.getElementById('greeting').innerHTML = new Date().getHours() >= 12 ? 'Good Afternoon!' : 'Good Morning!';
   // End of Greetings Js//
   toggle.addEventListener("click", function(e) {
     if (menu.classList.contains("open")) {
